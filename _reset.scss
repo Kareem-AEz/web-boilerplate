@@ -9,15 +9,7 @@
 
 html {
 	font-size: 62.5%;
-	font-family: $font-primary;
-	color: $color-grey-dark-2;
-	font-weight: 300;
-
 	box-sizing: border-box;
-
-	@include respond-to(xxlarge) {
-		font-size: 50%;
-	}
 }
 
 body {
@@ -32,6 +24,7 @@ img {
 	height: auto;
 	display: block;
 
+	/* ATTENTION */
 	user-select: none;
 	pointer-events: none;
 }
