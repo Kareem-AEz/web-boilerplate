@@ -38,6 +38,7 @@ img {
 
 /* Reset links */
 a {
+	display: inline-block;
 	background-color: transparent;
 	text-decoration: none;
 	color: inherit; /* Use the parent element's color */
